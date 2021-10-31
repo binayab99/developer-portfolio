@@ -37,6 +37,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: inherit;
   display: block;
   width: max-content;
 }
@@ -53,7 +54,6 @@ h1,
 h2,
 h3,
 h4,
-a,
 .logo {
   font-family: var(--ff-prata);
 }
@@ -73,6 +73,7 @@ p {
 }
 
 .cta {
+  font-family: var(--ff-prata);
   background-color: hsl(var(--clr-accent));
   color: hsl(var(--clr-dark));
   padding: 0.5em 1em;
@@ -94,6 +95,7 @@ p {
 
 .header {
   justify-content: space-between;
+  margin-top: 2rem;
   margin-bottom: 5rem;
 }
 
